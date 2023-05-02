@@ -153,17 +153,17 @@ begin
   DM.qrClientes.Open;
   DM.qrClientes.Active := true;
 
-  DM.relClientes.LoadFromFile('relatorios\relClientes.fr3');
-    DM.relClientes.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relClientes.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relClientes.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relClientes.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relClientes.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relClientes.Variables['endereco']    := QuotedStr(endereco);
-    DM.relClientes.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relClientes.Variables['telefone']    := QuotedStr(telefone);
-    DM.relClientes.Variables['email']       := QuotedStr(email);
-  DM.relClientes.ShowReport;
+//  DM.relClientes.LoadFromFile('relatorios\relClientes.fr3');
+//    DM.relClientes.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relClientes.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relClientes.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relClientes.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relClientes.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relClientes.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relClientes.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relClientes.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relClientes.Variables['email']       := QuotedStr(email);
+//  DM.relClientes.ShowReport;
 end;
 
 procedure TfrmRelatorios.imgRelClientesMouseLeave(Sender: TObject);
@@ -192,18 +192,18 @@ begin
   DM.qrVasilhames.SQL.Clear;
   DM.qrVasilhames.SQL.Add('SELECT * FROM vasilhames');
   DM.qrVasilhames.Open;
-
-  DM.relVasilhames.LoadFromFile('relatorios\relVasilhames.fr3');
-    DM.relVasilhames.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relVasilhames.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relVasilhames.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relVasilhames.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relVasilhames.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relVasilhames.Variables['endereco']    := QuotedStr(endereco);
-    DM.relVasilhames.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relVasilhames.Variables['telefone']    := QuotedStr(telefone);
-    DM.relVasilhames.Variables['email']       := QuotedStr(email);
-  DM.relVasilhames.ShowReport;
+//
+//  DM.relVasilhames.LoadFromFile('relatorios\relVasilhames.fr3');
+//    DM.relVasilhames.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relVasilhames.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relVasilhames.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relVasilhames.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relVasilhames.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relVasilhames.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relVasilhames.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relVasilhames.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relVasilhames.Variables['email']       := QuotedStr(email);
+//  DM.relVasilhames.ShowReport;
 end;
 
 procedure TfrmRelatorios.imgRelVasilhamesMouseLeave(Sender: TObject);
@@ -239,17 +239,17 @@ begin
   DM.qrEntRec.Open;
   DM.qrEntRec.Active := true;
 
-  DM.relVasaRec.LoadFromFile('relatorios\relVasilhamesaReceber.fr3');
-    DM.relVasaRec.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relVasaRec.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relVasaRec.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relVasaRec.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relVasaRec.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relVasaRec.Variables['endereco']    := QuotedStr(endereco);
-    DM.relVasaRec.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relVasaRec.Variables['telefone']    := QuotedStr(telefone);
-    DM.relVasaRec.Variables['email']       := QuotedStr(email);
-  DM.relVasaRec.ShowReport;
+//  DM.relVasaRec.LoadFromFile('relatorios\relVasilhamesaReceber.fr3');
+//    DM.relVasaRec.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relVasaRec.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relVasaRec.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relVasaRec.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relVasaRec.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relVasaRec.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relVasaRec.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relVasaRec.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relVasaRec.Variables['email']       := QuotedStr(email);
+//  DM.relVasaRec.ShowReport;
 end;
 
 procedure TfrmRelatorios.imgVasaReceberMouseLeave(Sender: TObject);
@@ -295,17 +295,17 @@ begin
   DM.qrVasilhames.SQL.Add('SELECT id, descricao, marca, (quantidade - quantidade_a_rec) as quantidade, u_data FROM vasilhames');
   DM.qrVasilhames.Open;
 
-  DM.relVasEstoque.LoadFromFile('relatorios\relVasilhamesnoEstoque.fr3');
-    DM.relVasEstoque.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relVasEstoque.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relVasEstoque.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relVasEstoque.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relVasEstoque.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relVasEstoque.Variables['endereco']    := QuotedStr(endereco);
-    DM.relVasEstoque.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relVasEstoque.Variables['telefone']    := QuotedStr(telefone);
-    DM.relVasEstoque.Variables['email']       := QuotedStr(email);
-  DM.relVasEstoque.ShowReport;
+//  DM.relVasEstoque.LoadFromFile('relatorios\relVasilhamesnoEstoque.fr3');
+//    DM.relVasEstoque.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relVasEstoque.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relVasEstoque.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relVasEstoque.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relVasEstoque.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relVasEstoque.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relVasEstoque.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relVasEstoque.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relVasEstoque.Variables['email']       := QuotedStr(email);
+//  DM.relVasEstoque.ShowReport;
 end;
 
 procedure TfrmRelatorios.imgVasEstoqueMouseLeave(Sender: TObject);
@@ -383,17 +383,17 @@ begin
   DM.qrClientes.SQL.Add('SELECT * FROM clientes');
   DM.qrClientes.Open;
 
-  DM.relClientes.LoadFromFile('relatorios\relClientes.fr3');
-    DM.relClientes.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relClientes.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relClientes.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relClientes.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relClientes.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relClientes.Variables['endereco']    := QuotedStr(endereco);
-    DM.relClientes.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relClientes.Variables['telefone']    := QuotedStr(telefone);
-    DM.relClientes.Variables['email']       := QuotedStr(email);
-  DM.relClientes.ShowReport;
+//  DM.relClientes.LoadFromFile('relatorios\relClientes.fr3');
+//    DM.relClientes.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relClientes.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relClientes.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relClientes.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relClientes.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relClientes.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relClientes.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relClientes.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relClientes.Variables['email']       := QuotedStr(email);
+//  DM.relClientes.ShowReport;
 end;
 
 procedure TfrmRelatorios.pnlRelClientesMouseLeave(Sender: TObject);
@@ -423,17 +423,17 @@ begin
   DM.qrVasilhames.SQL.Add('SELECT * FROM vasilhames');
   DM.qrVasilhames.Open;
 
-  DM.relVasilhames.LoadFromFile('relatorios\relVasilhames.fr3');
-    DM.relVasilhames.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relVasilhames.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relVasilhames.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relVasilhames.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relVasilhames.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relVasilhames.Variables['endereco']    := QuotedStr(endereco);
-    DM.relVasilhames.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relVasilhames.Variables['telefone']    := QuotedStr(telefone);
-    DM.relVasilhames.Variables['email']       := QuotedStr(email);
-  DM.relVasilhames.ShowReport;
+//  DM.relVasilhames.LoadFromFile('relatorios\relVasilhames.fr3');
+//    DM.relVasilhames.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relVasilhames.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relVasilhames.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relVasilhames.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relVasilhames.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relVasilhames.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relVasilhames.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relVasilhames.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relVasilhames.Variables['email']       := QuotedStr(email);
+//  DM.relVasilhames.ShowReport;
 end;
 
 procedure TfrmRelatorios.pnlRelVasilhamesMouseLeave(Sender: TObject);
@@ -468,17 +468,17 @@ begin
   DM.qrEntRec.SQL.Add('SELECT * FROM ent_rec WHERE quantidade <> 0');
   DM.qrEntRec.Open;
 
-  DM.relVasaRec.LoadFromFile('relatorios\relVasilhamesaReceber.fr3');
-    DM.relVasaRec.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relVasaRec.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relVasaRec.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relVasaRec.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relVasaRec.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relVasaRec.Variables['endereco']    := QuotedStr(endereco);
-    DM.relVasaRec.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relVasaRec.Variables['telefone']    := QuotedStr(telefone);
-    DM.relVasaRec.Variables['email']       := QuotedStr(email);
-  DM.relVasaRec.ShowReport;
+//  DM.relVasaRec.LoadFromFile('relatorios\relVasilhamesaReceber.fr3');
+//    DM.relVasaRec.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relVasaRec.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relVasaRec.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relVasaRec.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relVasaRec.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relVasaRec.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relVasaRec.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relVasaRec.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relVasaRec.Variables['email']       := QuotedStr(email);
+//  DM.relVasaRec.ShowReport;
 end;
 
 procedure TfrmRelatorios.pnlVasaReceberMouseLeave(Sender: TObject);
@@ -524,17 +524,17 @@ begin
   DM.qrVasilhames.SQL.Add('SELECT id, descricao, marca, (quantidade - quantidade_a_rec) as quantidade, u_data FROM vasilhames');
   DM.qrVasilhames.Open;
 
-  DM.relVasEstoque.LoadFromFile('relatorios\relVasilhamesnoEstoque.fr3');
-    DM.relVasEstoque.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relVasEstoque.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relVasEstoque.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relVasEstoque.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relVasEstoque.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relVasEstoque.Variables['endereco']    := QuotedStr(endereco);
-    DM.relVasEstoque.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relVasEstoque.Variables['telefone']    := QuotedStr(telefone);
-    DM.relVasEstoque.Variables['email']       := QuotedStr(email);
-  DM.relVasEstoque.ShowReport;
+//  DM.relVasEstoque.LoadFromFile('relatorios\relVasilhamesnoEstoque.fr3');
+//    DM.relVasEstoque.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relVasEstoque.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relVasEstoque.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relVasEstoque.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relVasEstoque.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relVasEstoque.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relVasEstoque.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relVasEstoque.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relVasEstoque.Variables['email']       := QuotedStr(email);
+//  DM.relVasEstoque.ShowReport;
 end;
 
 procedure TfrmRelatorios.pnlVasEstoqueMouseLeave(Sender: TObject);

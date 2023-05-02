@@ -3,8 +3,8 @@ object frmFiltroVasRecebidos: TfrmFiltroVasRecebidos
   Top = 0
   BorderIcons = [biSystemMenu]
   Caption = 'Filtro - Vasilhames Recebidos'
-  ClientHeight = 380
-  ClientWidth = 441
+  ClientHeight = 371
+  ClientWidth = 435
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -542,10 +542,8 @@ object frmFiltroVasRecebidos: TfrmFiltroVasRecebidos
     007FFF8003FFFFC0007FFF8003FFFFC000FFFF0001FFFFC0007FFF0001FFFFC0
     007FFF0003FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0
     007FFF0001FFFFE000FFFF0001FFFFFFFFFFFF0001FFFFFFFFFFFF0001FF}
-  OldCreateOrder = False
   Position = poScreenCenter
   OnActivate = FormActivate
-  PixelsPerInch = 96
   TextHeight = 13
   object btnImprimir: TSpeedButton
     Left = 165

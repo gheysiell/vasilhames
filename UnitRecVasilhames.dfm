@@ -3,8 +3,8 @@ object frmRecVasilhames: TfrmRecVasilhames
   Top = 0
   BorderIcons = [biSystemMenu]
   Caption = 'Receber Vasilhames'
-  ClientHeight = 472
-  ClientWidth = 414
+  ClientHeight = 463
+  ClientWidth = 408
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -542,10 +542,8 @@ object frmRecVasilhames: TfrmRecVasilhames
     007FFF8003FFFFC0007FFF8003FFFFC000FFFF0001FFFFC0007FFF0001FFFFC0
     007FFF0003FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0
     007FFF0001FFFFE000FFFF0001FFFFFFFFFFFF0001FFFFFFFFFFFF0001FF}
-  OldCreateOrder = False
   Position = poScreenCenter
   OnActivate = FormActivate
-  PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
     Left = 141

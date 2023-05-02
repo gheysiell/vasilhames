@@ -3,8 +3,8 @@ object frmFiltroHistCliDetalhado: TfrmFiltroHistCliDetalhado
   Top = 0
   BorderIcons = [biSystemMenu]
   Caption = 'Filtro - Hist'#243'rico de Clientes Detalhado'
-  ClientHeight = 380
-  ClientWidth = 472
+  ClientHeight = 371
+  ClientWidth = 466
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -542,10 +542,8 @@ object frmFiltroHistCliDetalhado: TfrmFiltroHistCliDetalhado
     007FFF8003FFFFC0007FFF8003FFFFC000FFFF0001FFFFC0007FFF0001FFFFC0
     007FFF0003FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0
     007FFF0001FFFFE000FFFF0001FFFFFFFFFFFF0001FFFFFFFFFFFF0001FF}
-  OldCreateOrder = False
   Position = poScreenCenter
   OnActivate = FormActivate
-  PixelsPerInch = 96
   TextHeight = 13
   object btnImprimir: TSpeedButton
     Left = 179

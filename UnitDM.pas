@@ -8,7 +8,7 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
   Data.DB, FireDAC.Comp.Client, FireDAC.Phys.MySQL, FireDAC.Phys.MySQLDef,
   FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
-  FireDAC.Comp.DataSet, frxClass, frxExportBaseDialog, frxExportPDF, frxDBSet;
+  FireDAC.Comp.DataSet; // frxClass, frxExportBaseDialog, frxExportPDF, frxDBSet
 
 type
   TDM = class(TDataModule)
@@ -17,30 +17,30 @@ type
     dsTbVasilhames: TDataSource;
     tbVasilhames: TFDTable;
     dsQrVasilhames: TDataSource;
-    termoComodato: TfrxReport;
-    termoRecebimento: TfrxReport;
+    //termoComodato: TfrxReport;
+    //termoRecebimento: TfrxReport;
     tbClientes: TFDTable;
     qrClientes: TFDQuery;
     dsTbClientes: TDataSource;
     dsQrClientes: TDataSource;
-    expPdf: TfrxPDFExport;
+    //expPdf: TfrxPDFExport;
     qrEntRec: TFDQuery;
     tbEntRec: TFDTable;
     qrDadosEmp: TFDQuery;
     dsQrDadosEmp: TDataSource;
-    dsDadosEmp: TfrxDBDataset;
+    //dsDadosEmp: TfrxDBDataset;
     dsQrEntRec: TDataSource;
-    relVasEstoque: TfrxReport;
-    relVasaRec: TfrxReport;
-    dsVasEstoque: TfrxDBDataset;
-    dsVasaRec: TfrxDBDataset;
+//    relVasEstoque: TfrxReport;
+//    relVasaRec: TfrxReport;
+//    dsVasEstoque: TfrxDBDataset;
+//    dsVasaRec: TfrxDBDataset;
     qrRecebimentoVas: TFDQuery;
-    dsRecVas: TfrxDBDataset;
+    //dsRecVas: TfrxDBDataset;
     dsRecVasilhames: TDataSource;
-    relVasilhames: TfrxReport;
-    relClientes: TfrxReport;
-    dsRelVasilhames: TfrxDBDataset;
-    dsRelClientes: TfrxDBDataset;
+//    relVasilhames: TfrxReport;
+//    relClientes: TfrxReport;
+//    dsRelVasilhames: TfrxDBDataset;
+//    dsRelClientes: TfrxDBDataset;
     tbVasilhamesid: TFDAutoIncField;
     tbVasilhamesdescricao: TStringField;
     tbVasilhamesmarca: TStringField;
@@ -60,13 +60,13 @@ type
     tbClientescep: TStringField;
     tbClientestelefone: TStringField;
     tbClientesu_data: TSQLTimeStampField;
-    relVasRecebidos: TfrxReport;
-    relVasEntregues: TfrxReport;
-    dsVasEntregues: TfrxDBDataset;
-    dsEntVasilhames: TDataSource;
-    relHistClientes: TfrxReport;
-    relHistClientesDet: TfrxReport;
-    dsEntRec: TfrxDBDataset;
+//    relVasRecebidos: TfrxReport;
+//    relVasEntregues: TfrxReport;
+//    dsVasEntregues: TfrxDBDataset;
+//    dsEntVasilhames: TDataSource;
+//    relHistClientes: TfrxReport;
+//    relHistClientesDet: TfrxReport;
+//    dsEntRec: TfrxDBDataset;
     tbEntRecid: TFDAutoIncField;
     tbEntRecvasilhame: TStringField;
     tbEntReccliente: TStringField;

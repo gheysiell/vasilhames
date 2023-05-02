@@ -541,13 +541,11 @@ object frmMenu: TfrmMenu
     007FFF8003FFFFC0007FFF8003FFFFC000FFFF0001FFFFC0007FFF0001FFFFC0
     007FFF0003FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0007FFF0001FFFFC0
     007FFF0001FFFFE000FFFF0001FFFFFFFFFFFF0001FFFFFFFFFFFF0001FF}
-  OldCreateOrder = False
   Position = poScreenCenter
   WindowState = wsMaximized
   OnActivate = FormActivate
   OnCreate = FormCreate
   OnResize = FormResize
-  PixelsPerInch = 96
   TextHeight = 13
   object imgCentral: TImage
     Left = 313
@@ -792,23 +790,22 @@ object frmMenu: TfrmMenu
     ParentBackground = False
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 748
+    ExplicitWidth = 704
   end
   object pnl_menu_lateral: TPanel
     Left = 0
     Top = 129
-    Width = 225
+    Width = 280
     Height = 382
     Align = alLeft
     BevelOuter = bvNone
     Color = clMedGray
     ParentBackground = False
     TabOrder = 1
-    ExplicitHeight = 486
     object pnlMenu: TPanel
       Left = 0
       Top = 0
-      Width = 225
+      Width = 280
       Height = 75
       Cursor = crHandPoint
       Hint = 'Menu'
@@ -832,6 +829,7 @@ object frmMenu: TfrmMenu
       ShowHint = True
       TabOrder = 0
       OnClick = pnlMenuClick
+      ExplicitWidth = 225
       object imgMenu: TImage
         Left = 0
         Top = 0
@@ -860,7 +858,7 @@ object frmMenu: TfrmMenu
     object pnlCadastro: TPanel
       Left = 0
       Top = 185
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Relat'#243'rios de Vendas'
@@ -883,6 +881,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlCadastroClick
       OnMouseLeave = pnlCadastroMouseLeave
       OnMouseMove = pnlCadastroMouseMove
+      ExplicitWidth = 225
       object imgVendas: TImage
         Left = 0
         Top = 0
@@ -934,7 +933,7 @@ object frmMenu: TfrmMenu
     object pnlPesquisa: TPanel
       Left = 0
       Top = 240
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Relat'#243'rios de Caixa'
@@ -961,6 +960,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlPesquisaClick
       OnMouseLeave = pnlPesquisaMouseLeave
       OnMouseMove = pnlPesquisaMouseMove
+      ExplicitWidth = 225
       object imgCaixa: TImage
         Left = 0
         Top = 0
@@ -1033,7 +1033,7 @@ object frmMenu: TfrmMenu
     object pnlSair: TPanel
       Left = 0
       Top = 405
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Sair'
@@ -1060,6 +1060,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlSairClick
       OnMouseLeave = pnlSairMouseLeave
       OnMouseMove = pnlSairMouseMove
+      ExplicitWidth = 225
       object imgSair: TImage
         Left = 0
         Top = 0
@@ -1095,7 +1096,7 @@ object frmMenu: TfrmMenu
     object pnlRecVasilhames: TPanel
       Left = 0
       Top = 130
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Sair'
@@ -1122,6 +1123,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlRecVasilhamesClick
       OnMouseLeave = pnlRecVasilhamesMouseLeave
       OnMouseMove = pnlRecVasilhamesMouseMove
+      ExplicitWidth = 225
       object Image1: TImage
         Left = 0
         Top = 0
@@ -1172,7 +1174,7 @@ object frmMenu: TfrmMenu
     object pnlEntVasilhames: TPanel
       Left = 0
       Top = 75
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Sair'
@@ -1199,6 +1201,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlEntVasilhamesClick
       OnMouseLeave = pnlEntVasilhamesMouseLeave
       OnMouseMove = pnlEntVasilhamesMouseMove
+      ExplicitWidth = 225
       object Image2: TImage
         Left = 0
         Top = 0
@@ -1279,7 +1282,7 @@ object frmMenu: TfrmMenu
     object pnlConfiguracoes: TPanel
       Left = 0
       Top = 350
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Sair'
@@ -1306,6 +1309,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlConfiguracoesClick
       OnMouseLeave = pnlConfiguracoesMouseLeave
       OnMouseMove = pnlConfiguracoesMouseMove
+      ExplicitWidth = 225
       object imgConfiguracoes: TImage
         Left = 0
         Top = 0
@@ -1375,7 +1379,7 @@ object frmMenu: TfrmMenu
     object pnlRelatorios: TPanel
       Left = 0
       Top = 295
-      Width = 225
+      Width = 280
       Height = 55
       Cursor = crHandPoint
       Hint = 'Sair'
@@ -1402,6 +1406,7 @@ object frmMenu: TfrmMenu
       OnClick = pnlRelatoriosClick
       OnMouseLeave = pnlRelatoriosMouseLeave
       OnMouseMove = pnlRelatoriosMouseMove
+      ExplicitWidth = 225
       object imgRelatorios: TImage
         Left = 0
         Top = 0

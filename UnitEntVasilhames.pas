@@ -390,28 +390,28 @@ begin
     end;
 
     // Abre Relatório
-    DM.termoComodato.LoadFromFile('relatorios\termoComodato.fr3');
-      DM.termoComodato.Variables['temLogo']     := QuotedStr(temLogo);
-      DM.termoComodato.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-      DM.termoComodato.Variables['fantasia']    := QuotedStr(fantasia);
-      DM.termoComodato.Variables['cnpj']        := QuotedStr(cnpj);
-      DM.termoComodato.Variables['inscEst']     := QuotedStr(inscEst);
-      DM.termoComodato.Variables['endereco']    := QuotedStr(endereco);
-      DM.termoComodato.Variables['cidade_emp']  := QuotedStr(cidade);
-      DM.termoComodato.Variables['uf']          := QuotedStr(uf);
-      DM.termoComodato.Variables['telefone']    := QuotedStr(telefone);
-      DM.termoComodato.Variables['email']       := QuotedStr(email);
-      DM.termoComodato.Variables['nome']        := QuotedStr(DM.qrClientes.FieldByName('nome_razao').AsString);
-      DM.termoComodato.Variables['cpf']         := QuotedStr(DM.qrClientes.FieldByName('documento').AsString);
-      DM.termoComodato.Variables['enderecoCli'] := QuotedStr(DM.qrClientes.FieldByName('rua').AsString);
-      DM.termoComodato.Variables['bairro']      := QuotedStr(DM.qrClientes.FieldByName('bairro').AsString);
-      DM.termoComodato.Variables['numero']      := QuotedStr(DM.qrClientes.FieldByName('numero').AsString);
-      DM.termoComodato.Variables['cidade']      := QuotedStr(DM.qrClientes.FieldByName('cidade').AsString);
-      DM.termoComodato.Variables['estado']      := QuotedStr(DM.qrClientes.FieldByName('uf').AsString);
-      DM.termoComodato.Variables['vasilhame']   := QuotedStr(cmbVasilhame.Text);
-      DM.termoComodato.Variables['quantidade']  := QuotedStr(txtQuantidade.Text);
-      DM.termoComodato.Variables['capacidade']  := QuotedStr(DM.qrVasilhames.FieldByName('capacidade').AsString);
-    DM.termoComodato.ShowReport;
+//    DM.termoComodato.LoadFromFile('relatorios\termoComodato.fr3');
+//      DM.termoComodato.Variables['temLogo']     := QuotedStr(temLogo);
+//      DM.termoComodato.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//      DM.termoComodato.Variables['fantasia']    := QuotedStr(fantasia);
+//      DM.termoComodato.Variables['cnpj']        := QuotedStr(cnpj);
+//      DM.termoComodato.Variables['inscEst']     := QuotedStr(inscEst);
+//      DM.termoComodato.Variables['endereco']    := QuotedStr(endereco);
+//      DM.termoComodato.Variables['cidade_emp']  := QuotedStr(cidade);
+//      DM.termoComodato.Variables['uf']          := QuotedStr(uf);
+//      DM.termoComodato.Variables['telefone']    := QuotedStr(telefone);
+//      DM.termoComodato.Variables['email']       := QuotedStr(email);
+//      DM.termoComodato.Variables['nome']        := QuotedStr(DM.qrClientes.FieldByName('nome_razao').AsString);
+//      DM.termoComodato.Variables['cpf']         := QuotedStr(DM.qrClientes.FieldByName('documento').AsString);
+//      DM.termoComodato.Variables['enderecoCli'] := QuotedStr(DM.qrClientes.FieldByName('rua').AsString);
+//      DM.termoComodato.Variables['bairro']      := QuotedStr(DM.qrClientes.FieldByName('bairro').AsString);
+//      DM.termoComodato.Variables['numero']      := QuotedStr(DM.qrClientes.FieldByName('numero').AsString);
+//      DM.termoComodato.Variables['cidade']      := QuotedStr(DM.qrClientes.FieldByName('cidade').AsString);
+//      DM.termoComodato.Variables['estado']      := QuotedStr(DM.qrClientes.FieldByName('uf').AsString);
+//      DM.termoComodato.Variables['vasilhame']   := QuotedStr(cmbVasilhame.Text);
+//      DM.termoComodato.Variables['quantidade']  := QuotedStr(txtQuantidade.Text);
+//      DM.termoComodato.Variables['capacidade']  := QuotedStr(DM.qrVasilhames.FieldByName('capacidade').AsString);
+//    DM.termoComodato.ShowReport;
 
     frmEntVasilhames.Close;
   end
@@ -533,28 +533,28 @@ begin
     end;
 
     // Abre Relatório
-    DM.termoComodato.LoadFromFile('relatorios\termoComodato.fr3');
-      DM.termoComodato.Variables['temLogo']     := QuotedStr(temLogo);
-      DM.termoComodato.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-      DM.termoComodato.Variables['fantasia']    := QuotedStr(fantasia);
-      DM.termoComodato.Variables['cnpj']        := QuotedStr(cnpj);
-      DM.termoComodato.Variables['inscEst']     := QuotedStr(inscEst);
-      DM.termoComodato.Variables['endereco']    := QuotedStr(endereco);
-      DM.termoComodato.Variables['cidade_emp']  := QuotedStr(cidade);
-      DM.termoComodato.Variables['uf']          := QuotedStr(uf);
-      DM.termoComodato.Variables['telefone']    := QuotedStr(telefone);
-      DM.termoComodato.Variables['email']       := QuotedStr(email);
-      DM.termoComodato.Variables['nome']        := QuotedStr(DM.qrClientes.FieldByName('nome_razao').AsString);
-      DM.termoComodato.Variables['cpf']         := QuotedStr(DM.qrClientes.FieldByName('documento').AsString);
-      DM.termoComodato.Variables['enderecoCli'] := QuotedStr(DM.qrClientes.FieldByName('rua').AsString);
-      DM.termoComodato.Variables['bairro']      := QuotedStr(DM.qrClientes.FieldByName('bairro').AsString);
-      DM.termoComodato.Variables['numero']      := QuotedStr(DM.qrClientes.FieldByName('numero').AsString);
-      DM.termoComodato.Variables['cidade']      := QuotedStr(DM.qrClientes.FieldByName('cidade').AsString);
-      DM.termoComodato.Variables['estado']      := QuotedStr(DM.qrClientes.FieldByName('uf').AsString);
-      DM.termoComodato.Variables['vasilhame']   := QuotedStr(cmbVasilhame.Text);
-      DM.termoComodato.Variables['quantidade']  := QuotedStr(txtQuantidade.Text);
-      DM.termoComodato.Variables['capacidade']  := QuotedStr(DM.qrVasilhames.FieldByName('capacidade').AsString);
-    DM.termoComodato.ShowReport;
+//    DM.termoComodato.LoadFromFile('relatorios\termoComodato.fr3');
+//      DM.termoComodato.Variables['temLogo']     := QuotedStr(temLogo);
+//      DM.termoComodato.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//      DM.termoComodato.Variables['fantasia']    := QuotedStr(fantasia);
+//      DM.termoComodato.Variables['cnpj']        := QuotedStr(cnpj);
+//      DM.termoComodato.Variables['inscEst']     := QuotedStr(inscEst);
+//      DM.termoComodato.Variables['endereco']    := QuotedStr(endereco);
+//      DM.termoComodato.Variables['cidade_emp']  := QuotedStr(cidade);
+//      DM.termoComodato.Variables['uf']          := QuotedStr(uf);
+//      DM.termoComodato.Variables['telefone']    := QuotedStr(telefone);
+//      DM.termoComodato.Variables['email']       := QuotedStr(email);
+//      DM.termoComodato.Variables['nome']        := QuotedStr(DM.qrClientes.FieldByName('nome_razao').AsString);
+//      DM.termoComodato.Variables['cpf']         := QuotedStr(DM.qrClientes.FieldByName('documento').AsString);
+//      DM.termoComodato.Variables['enderecoCli'] := QuotedStr(DM.qrClientes.FieldByName('rua').AsString);
+//      DM.termoComodato.Variables['bairro']      := QuotedStr(DM.qrClientes.FieldByName('bairro').AsString);
+//      DM.termoComodato.Variables['numero']      := QuotedStr(DM.qrClientes.FieldByName('numero').AsString);
+//      DM.termoComodato.Variables['cidade']      := QuotedStr(DM.qrClientes.FieldByName('cidade').AsString);
+//      DM.termoComodato.Variables['estado']      := QuotedStr(DM.qrClientes.FieldByName('uf').AsString);
+//      DM.termoComodato.Variables['vasilhame']   := QuotedStr(cmbVasilhame.Text);
+//      DM.termoComodato.Variables['quantidade']  := QuotedStr(txtQuantidade.Text);
+//      DM.termoComodato.Variables['capacidade']  := QuotedStr(DM.qrVasilhames.FieldByName('capacidade').AsString);
+//    DM.termoComodato.ShowReport;
 
     frmEntVasilhames.Close;
   end

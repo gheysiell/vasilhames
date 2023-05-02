@@ -74,17 +74,17 @@ begin
     temLogo := 'ss';
   end;
 
-  DM.relHistClientes.LoadFromFile('relatorios\relHistClientes.fr3');
-    DM.relHistClientes.Variables['temLogo']     := QuotedStr(temLogo);
-    DM.relHistClientes.Variables['razaoSoc']    := QuotedStr(razaoSoc);
-    DM.relHistClientes.Variables['fantasia']    := QuotedStr(fantasia);
-    DM.relHistClientes.Variables['cnpj']        := QuotedStr(cnpj);
-    DM.relHistClientes.Variables['inscEst']     := QuotedStr(inscEst);
-    DM.relHistClientes.Variables['endereco']    := QuotedStr(endereco);
-    DM.relHistClientes.Variables['cidade_emp']  := QuotedStr(cidade);
-    DM.relHistClientes.Variables['telefone']    := QuotedStr(telefone);
-    DM.relHistClientes.Variables['email']       := QuotedStr(email);
-  DM.relHistClientes.ShowReport;
+//  DM.relHistClientes.LoadFromFile('relatorios\relHistClientes.fr3');
+//    DM.relHistClientes.Variables['temLogo']     := QuotedStr(temLogo);
+//    DM.relHistClientes.Variables['razaoSoc']    := QuotedStr(razaoSoc);
+//    DM.relHistClientes.Variables['fantasia']    := QuotedStr(fantasia);
+//    DM.relHistClientes.Variables['cnpj']        := QuotedStr(cnpj);
+//    DM.relHistClientes.Variables['inscEst']     := QuotedStr(inscEst);
+//    DM.relHistClientes.Variables['endereco']    := QuotedStr(endereco);
+//    DM.relHistClientes.Variables['cidade_emp']  := QuotedStr(cidade);
+//    DM.relHistClientes.Variables['telefone']    := QuotedStr(telefone);
+//    DM.relHistClientes.Variables['email']       := QuotedStr(email);
+//  DM.relHistClientes.ShowReport;
 end;
 
 procedure TfrmFiltroHistClientes.FormActivate(Sender: TObject);
